@@ -1,0 +1,240 @@
+DASHBOARD MODULAR | MVC E INTERFACES
+Catálogo inicial: 12 widgets activos.
+Clima simulado; relojes UTC. Actualización manual desde el menú.
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: Entrada inválida: escribe un entero dentro del rango de int.
+Opción: ID 1 | Bienvenida | WidgetTexto | 20 KB | Activo | Clic: no | Actualización: no | Contenido: Bienvenido al panel empresarial.
+ID 2 | Política de seguridad | WidgetTexto | 25 KB | Activo | Clic: no | Actualización: no | Contenido: No compartas tus credenciales.
+ID 3 | Clima Guatemala | WidgetClima | 180 KB | Activo | Clic: no | Actualización: sí | Ciudad: Guatemala | Temperatura: 22.0 °C | Actualizaciones: 0
+ID 4 | Clima Quetzaltenango | WidgetClima | 160 KB | Activo | Clic: no | Actualización: sí | Ciudad: Quetzaltenango | Temperatura: 15.0 °C | Actualizaciones: 0
+ID 5 | Tareas de soporte | WidgetTareas | 110 KB | Activo | Clic: sí | Actualización: no | Tareas: 3 | Completadas: 0 | Pendientes: 3
+ID 6 | Tareas de ventas | WidgetTareas | 95 KB | Activo | Clic: sí | Actualización: no | Tareas: 2 | Completadas: 0 | Pendientes: 2
+ID 7 | Alerta de servidor | WidgetAlerta | 55 KB | Activo | Clic: sí | Actualización: no | Nivel: Alta | Mensaje: Revisar espacio en disco | Atendida: false
+ID 8 | Alerta de reunión | WidgetAlerta | 45 KB | Activo | Clic: sí | Actualización: no | Nivel: Media | Mensaje: Reunión de equipo a las 10:00 | Atendida: false
+ID 9 | Hora operativa | WidgetReloj | 30 KB | Activo | Clic: no | Actualización: sí | Zona: Z | Última lectura: 03:34:41
+ID 10 | Hora de monitoreo | WidgetReloj | 35 KB | Activo | Clic: no | Actualización: sí | Zona: Z | Última lectura: 03:34:41
+ID 11 | Indicador de servicio | WidgetTexto | 20 KB | Activo | Clic: no | Actualización: no | Contenido: Objetivo de disponibilidad: 99.9 %
+ID 12 | Alerta de respaldo | WidgetAlerta | 50 KB | Activo | Clic: sí | Actualización: no | Nivel: Baja | Mensaje: Verificar copia de seguridad | Atendida: false
+
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: ID: ID 3 | Clima Guatemala | WidgetClima | 180 KB | Activo | Clic: no | Actualización: sí | Ciudad: Guatemala | Temperatura: 22.0 °C | Actualizaciones: 0
+[CLIMA SIMULADO] Guatemala: 22.0 °C
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: Nombre exacto: ID 3 | Clima Guatemala | WidgetClima | 180 KB | Activo | Clic: no | Actualización: sí | Ciudad: Guatemala | Temperatura: 22.0 °C | Actualizaciones: 0
+[CLIMA SIMULADO] Guatemala: 22.0 °C
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: Inventario ordenado por memoria ascendente:
+ID 1 | Bienvenida | WidgetTexto | 20 KB | Activo | Clic: no | Actualización: no | Contenido: Bienvenido al panel empresarial.
+ID 11 | Indicador de servicio | WidgetTexto | 20 KB | Activo | Clic: no | Actualización: no | Contenido: Objetivo de disponibilidad: 99.9 %
+ID 2 | Política de seguridad | WidgetTexto | 25 KB | Activo | Clic: no | Actualización: no | Contenido: No compartas tus credenciales.
+ID 9 | Hora operativa | WidgetReloj | 30 KB | Activo | Clic: no | Actualización: sí | Zona: Z | Última lectura: 03:34:41
+ID 10 | Hora de monitoreo | WidgetReloj | 35 KB | Activo | Clic: no | Actualización: sí | Zona: Z | Última lectura: 03:34:41
+ID 8 | Alerta de reunión | WidgetAlerta | 45 KB | Activo | Clic: sí | Actualización: no | Nivel: Media | Mensaje: Reunión de equipo a las 10:00 | Atendida: false
+ID 12 | Alerta de respaldo | WidgetAlerta | 50 KB | Activo | Clic: sí | Actualización: no | Nivel: Baja | Mensaje: Verificar copia de seguridad | Atendida: false
+ID 7 | Alerta de servidor | WidgetAlerta | 55 KB | Activo | Clic: sí | Actualización: no | Nivel: Alta | Mensaje: Revisar espacio en disco | Atendida: false
+ID 6 | Tareas de ventas | WidgetTareas | 95 KB | Activo | Clic: sí | Actualización: no | Tareas: 2 | Completadas: 0 | Pendientes: 2
+ID 5 | Tareas de soporte | WidgetTareas | 110 KB | Activo | Clic: sí | Actualización: no | Tareas: 3 | Completadas: 0 | Pendientes: 3
+ID 4 | Clima Quetzaltenango | WidgetClima | 160 KB | Activo | Clic: no | Actualización: sí | Ciudad: Quetzaltenango | Temperatura: 15.0 °C | Actualizaciones: 0
+ID 3 | Clima Guatemala | WidgetClima | 180 KB | Activo | Clic: no | Actualización: sí | Ciudad: Guatemala | Temperatura: 22.0 °C | Actualizaciones: 0
+
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: [TEXTO] Bienvenida: Bienvenido al panel empresarial.
+[TEXTO] Indicador de servicio: Objetivo de disponibilidad: 99.9 %
+[TEXTO] Política de seguridad: No compartas tus credenciales.
+[RELOJ Z] Hora operativa: 03:34:41
+[RELOJ Z] Hora de monitoreo: 03:34:41
+[ALERTA Media] Reunión de equipo a las 10:00 | Pendiente
+[ALERTA Baja] Verificar copia de seguridad | Pendiente
+[ALERTA Alta] Revisar espacio en disco | Pendiente
+[TAREAS] Tareas de ventas
+  [ ] Preparar cotización
+  [ ] Llamar al cliente
+[TAREAS] Tareas de soporte
+  [ ] Revisar tickets
+  [ ] Responder correos
+  [ ] Actualizar manual
+[CLIMA SIMULADO] Quetzaltenango: 15.0 °C
+[CLIMA SIMULADO] Guatemala: 22.0 °C
+
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: ID: Este widget no admite clics; su estado se conserva.
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: ID: Tarea completada: Revisar tickets
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: ID: Alerta atendida: Revisar espacio en disco
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: Widgets actualizados: 4
+[RELOJ Z] Hora operativa: 03:34:41
+[RELOJ Z] Hora de monitoreo: 03:34:41
+[CLIMA SIMULADO] Quetzaltenango: 15.5 °C
+[CLIMA SIMULADO] Guatemala: 22.5 °C
+
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: ID: 1 = activar, 0 = desactivar: Widget 3 desactivado.
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: ID 1 | Bienvenida | WidgetTexto | 20 KB | Activo | Clic: no | Actualización: no | Contenido: Bienvenido al panel empresarial.
+ID 11 | Indicador de servicio | WidgetTexto | 20 KB | Activo | Clic: no | Actualización: no | Contenido: Objetivo de disponibilidad: 99.9 %
+ID 2 | Política de seguridad | WidgetTexto | 25 KB | Activo | Clic: no | Actualización: no | Contenido: No compartas tus credenciales.
+ID 9 | Hora operativa | WidgetReloj | 30 KB | Activo | Clic: no | Actualización: sí | Zona: Z | Última lectura: 03:34:41
+ID 10 | Hora de monitoreo | WidgetReloj | 35 KB | Activo | Clic: no | Actualización: sí | Zona: Z | Última lectura: 03:34:41
+ID 8 | Alerta de reunión | WidgetAlerta | 45 KB | Activo | Clic: sí | Actualización: no | Nivel: Media | Mensaje: Reunión de equipo a las 10:00 | Atendida: false
+ID 12 | Alerta de respaldo | WidgetAlerta | 50 KB | Activo | Clic: sí | Actualización: no | Nivel: Baja | Mensaje: Verificar copia de seguridad | Atendida: false
+ID 7 | Alerta de servidor | WidgetAlerta | 55 KB | Activo | Clic: sí | Actualización: no | Nivel: Alta | Mensaje: Revisar espacio en disco | Atendida: true
+ID 6 | Tareas de ventas | WidgetTareas | 95 KB | Activo | Clic: sí | Actualización: no | Tareas: 2 | Completadas: 0 | Pendientes: 2
+ID 5 | Tareas de soporte | WidgetTareas | 110 KB | Activo | Clic: sí | Actualización: no | Tareas: 3 | Completadas: 1 | Pendientes: 2
+ID 4 | Clima Quetzaltenango | WidgetClima | 160 KB | Activo | Clic: no | Actualización: sí | Ciudad: Quetzaltenango | Temperatura: 15.5 °C | Actualizaciones: 1
+
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: ID: ID 3 | Clima Guatemala | WidgetClima | 180 KB | Inactivo | Clic: no | Actualización: sí | Ciudad: Guatemala | Temperatura: 22.5 °C | Actualizaciones: 1
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: ID: Error: El widget está inactivo.
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: ID: 1 = activar, 0 = desactivar: Error: Estado inválido.
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: ID: Error: No existe un widget con ese ID.
+
+1. Listar widgets activos
+2. Buscar por ID
+3. Buscar por nombre
+4. Ordenar por memoria (KB)
+5. Renderizar activos
+6. Hacer clic
+7. Actualizar activos
+8. Activar o desactivar
+9. Salir
+Opción: Programa finalizado.

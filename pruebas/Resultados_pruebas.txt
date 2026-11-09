@@ -1,0 +1,58 @@
+OK | Listado vacío | esperado=No hay widgets para mostrar. | obtenido=No hay widgets para mostrar.
+OK | Render vacío | esperado=No hay widgets activos. | obtenido=No hay widgets activos.
+OK | Actualización vacía | esperado=true | obtenido=true
+OK | Carga de catálogo | esperado=12 | obtenido=12
+OK | Activos iniciales | esperado=12 | obtenido=12
+OK | Búsqueda por ID | esperado=Bienvenida | obtenido=Bienvenida
+OK | Búsqueda por nombre | esperado=1 | obtenido=1
+OK | Configuración por ID | esperado=true | obtenido=true
+OK | Configuración por nombre | esperado=true | obtenido=true
+OK | Render de texto | esperado=true | obtenido=true
+OK | Render de clima | esperado=true | obtenido=true
+OK | Render de tareas | esperado=true | obtenido=true
+OK | Render de alerta | esperado=true | obtenido=true
+OK | Render de reloj | esperado=true | obtenido=true
+OK | Clic estático seguro | esperado=true | obtenido=true
+OK | Estático no cambia | esperado=ID 1 | Bienvenida | WidgetTexto | 20 KB | Activo | Clic: no | Actualización: no | Contenido: Bienvenido al panel empresarial. | obtenido=ID 1 | Bienvenida | WidgetTexto | 20 KB | Activo | Clic: no | Actualización: no | Contenido: Bienvenido al panel empresarial.
+OK | Clic de tarea | esperado=Tarea completada: Revisar tickets | obtenido=Tarea completada: Revisar tickets
+OK | Tarea completada visible | esperado=true | obtenido=true
+OK | Tareas agotadas | esperado=No quedan tareas pendientes. | obtenido=No quedan tareas pendientes.
+OK | Atender alerta | esperado=true | obtenido=true
+OK | Alerta idempotente | esperado=La alerta ya fue atendida. | obtenido=La alerta ya fue atendida.
+OK | Actualizables iniciales | esperado=true | obtenido=true
+OK | Clima actualizado | esperado=true | obtenido=true
+OK | Activo desactivado | esperado=false | obtenido=false
+OK | Inactivo excluido del listado | esperado=false | obtenido=false
+OK | Inactivo excluido del render | esperado=false | obtenido=false
+OK | Búsqueda incluye inactivos | esperado=true | obtenido=true
+OK | Inactivo no se actualiza | esperado=true | obtenido=true
+OK | Temperatura inactiva intacta | esperado=true | obtenido=true
+OK | Clic en inactivo | esperado=IllegalStateException | obtenido=IllegalStateException
+OK | Reactivar widget | esperado=true | obtenido=true
+OK | Orden inicial por memoria | esperado=true | obtenido=true
+OK | Desempate por ID | esperado=true | obtenido=true
+OK | Orden completo | esperado=true | obtenido=true
+OK | Comparable ascendente | esperado=true | obtenido=true
+OK | Comparable reflexivo | esperado=0 | obtenido=0
+OK | Parámetro por interfaz | esperado=true | obtenido=true
+OK | Sobrecarga con encabezado | esperado=Título
+Render de interfaz ajena al catálogo | obtenido=Título
+Render de interfaz ajena al catálogo
+OK | Constructor sobrecargado con Clock | esperado=true | obtenido=true
+OK | Actualización de reloj | esperado=true | obtenido=true
+OK | Nueva subclase renderizada | esperado=true | obtenido=true
+OK | Catálogo ampliado | esperado=13 | obtenido=13
+OK | ID duplicado | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Nombre duplicado | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Rechazos conservan cantidad | esperado=13 | obtenido=13
+OK | Búsqueda ID inexistente | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Búsqueda nombre inexistente | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Nombre vacío | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Widget null | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | ID inválido | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Memoria inválida | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Tareas vacías | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Temperatura NaN | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+OK | Render null | esperado=IllegalArgumentException | obtenido=IllegalArgumentException
+Total de verificaciones: 54
+Todas las pruebas pasaron.
